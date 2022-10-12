@@ -40,9 +40,11 @@ public class pot {
            }
        }
        int str2Index = str1.indexOf(str2);
-
-
-
+       if (str2Index != -1){
+           System.out.println(str2+" is found in "+str1+" at index"+str2Index);
+       }else {
+           System.out.println(str2+" is not found in "+str1);
+       }
 
 
     }
